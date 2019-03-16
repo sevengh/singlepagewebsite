@@ -372,7 +372,7 @@ color: #777;
 	display: inline-block;
 	margin: 0 20px;
 }
-#contact .social i.fa {
+#contact .social i.fab {
 	font-size: 26px;
 	padding: 4px;
 	color: #0ba2db;
@@ -396,7 +396,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: #e6e6e6;
 	color: #888;
 	padding: 30px 0 25px 0;
-	border: 1px solid #fff;
 }
 #footer p {
 	font-size: 15px;
