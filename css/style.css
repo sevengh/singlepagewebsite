@@ -63,12 +63,12 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
+	background-color: black;
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
 	font-size: 20px;
-	color: #444;
+	color: silver;
 	font-weight: 500;
 	text-transform: uppercase;
 }
@@ -78,7 +78,7 @@ hr {
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #444;
+	color: silver;
 	font-weight: 400;
 	font-size: 15px;
 	letter-spacing: 1px;
@@ -87,7 +87,7 @@ hr {
 	color: #0ba2db;
 }
 .on {
-	background-color: #f6f6f6 !important;
+	background-color: black !important;
 	border-bottom: 1px solid #ddd !important;
 	padding: 10px 0 !important;
 }
@@ -103,7 +103,7 @@ hr {
 	border-color: #0ba2db;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #FFF;
+	background-color: black;
 }
 .section-title {
 	margin-bottom: 70px;
@@ -127,6 +127,20 @@ hr {
 	color: #fff;
 	background-color: #444;
 }
+
+/* Header Logo */
+.intro-header {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/header.png) no-repeat center center;
+	background-color: black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
 /* Header Section */
 .intro {
 	display: table;
@@ -161,6 +175,13 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+
+/*  */
+header .intro-text-0 {
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
 /* About Section */
 #about {
 	padding: 120px 0;
@@ -372,7 +393,7 @@ color: #777;
 	display: inline-block;
 	margin: 0 20px;
 }
-#contact .social i.fa {
+#contact .social i.fab {
 	font-size: 26px;
 	padding: 4px;
 	color: #0ba2db;
@@ -393,10 +414,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer Section*/
 #footer {
-	background: #e6e6e6;
-	color: #888;
+	background: black;
+	color: silver;
 	padding: 30px 0 25px 0;
-	border: 1px solid #fff;
 }
 #footer p {
 	font-size: 15px;
@@ -413,4 +433,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	float: left;
 	margin-bottom: 20px;
 }
+}
+
+.image-menu {
+	display: inline-block !important;
+	color: red;
 }
