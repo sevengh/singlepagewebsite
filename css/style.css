@@ -434,8 +434,3 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 20px;
 }
 }
-
-.image-menu {
-	display: inline-block !important;
-	color: red;
-}
